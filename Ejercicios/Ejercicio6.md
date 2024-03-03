@@ -1,0 +1,1 @@
+### 6. Exporta los documentos de una colección de MongoDB que cumplan una determinada condición e impórtalos en otra base de datos.
