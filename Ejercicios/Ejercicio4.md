@@ -1,6 +1,6 @@
 ### 4. Intenta realizar operaciones similares de importación y exportación con las herramientas proporcionadas con MySQL desde línea de comandos, documentando el proceso.
 
-Para poder exportar datos en MySQL, podremos utilizar el comando **mysqldump**. Este comando nos sirve para realizar copias de la base de datos de MySQL, dándonos un abanico de posibilidades a la hora de exportar tablas, vistas, procedimientos...
+Para poder exportar datos en MySQL, podremos utilizar el comando **mysqldump**. Este comando nos sirve para realizar copias de la base de datos de MySQL, dándonos un abanico de posibilidades a la hora de exportar tablas, vistas...
 
 Para poder realizar una exportación de la base de datos completa en el esquema scott, ejecutaremos el siguiente comando:
 
