@@ -56,15 +56,13 @@ CREATE TABLE dept (
 );
 ```
 
-![FOTOS](img/44.png)
-
 Tras esto, crearemos un archivo para la tabla dept para que SQLLoader pueda hacer la importación. Seguido a esto, crearemos la carpeta donde guardaremos este archivo.
 
 ```sql
 mkdir sqlloader
 ```
 
-![FOTOS](img/45.png)
+![FOTOS](img/44.png)
 
 El archivo tendrá el siguiente contenido:
 
@@ -99,7 +97,7 @@ Tras esto, utilizaremos el comando de SQLLoader para importar el archivo con los
 sqlldr empora/empora control=/home/vagrant/sqlloader/dept.ctl log=/home/vagrant/log/dept.log
 ```
 
-![FOTOS](img/46.png)
+![FOTOS](img/45.png)
 
 
 Si queremos ver información de los logs de este proceso, ejecutamos el siguiente comando:
@@ -108,8 +106,8 @@ Si queremos ver información de los logs de este proceso, ejecutamos el siguient
 cat log/dept.log
 ```
 
-![FOTOS](img/47.png)
+![FOTOS](img/46.png)
 
 Tras esto, para comprobar que se han pasado de manera correcta accederemos y veremos mediante la consulta de la captura que se ha pasado de manera correcta:
 
-![FOTOS](img/48.png)
+![FOTOS](img/47.png)
