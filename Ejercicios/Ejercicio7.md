@@ -30,7 +30,7 @@ ls -l /var/lib/postgresql/sqlloader/
 
 Con esto hecho, para poder seguir el proceso completo de configuración y el uso de SQLLoader, necesitamos cargar los datos exportado de mi base de datos PostgreSQL a mi base de datos Oracle.
 
-Para esto, crearemos una tabla empora con los mismos tipos de datos que en la tabla de PostgreSQL pero adaptados a mi base de datos de Oracle. Estos datos insertaremos un usuario nuevo que crearemos con los comandos siguientes:
+Para esto, crearemos un usuario empora y creamos la tabla dept con los mismos tipos de datos que en la tabla de PostgreSQL pero adaptados a mi base de datos de Oracle. Estos datos insertaremos un usuario nuevo que crearemos con los comandos siguientes:
 
 ```sql
 alter session set "_ORACLE_SCRIPT"=true;
