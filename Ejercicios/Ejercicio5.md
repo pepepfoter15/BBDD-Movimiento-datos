@@ -36,7 +36,7 @@ cat scott_dept.sql
 
 Pasamos a la importación de ficheros .sql. Para ello, crearé una base de datos limpia para poder realizar la importación de este mismo. El comando que utilizaré para importar será el siguiente:
 
-```sqls
+```sql
 psql -U postgres -d scott2 -f scott_exp.sql
 ```
 
